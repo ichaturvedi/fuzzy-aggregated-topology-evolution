@@ -1,20 +1,38 @@
+
 # fate
 Fuzzy Aggregated Topology Evolution
-% Task1 Valence
-% Task2 Arousal
+===
+This code implements the model discussed in Fuzzy Agglomerative Topology Evolution. The model is able to determine the optimal neural hyper-parameters for multi-task problems simultaneously. For example, we consider two ECG tasks : Valence (Joy or Sad) and Arousal (Fear or Calm). 
 
-% format both tasks as nn input
-nn_input
+Requirements
+---
+This code requires Matlab for Fuzzy preprocessing and Jave for Genetic Programming.
 
-% create population for task 1
-ecg_nn_task1
+Preprocessing
+---
+The training data is a csv file of features followed by class label. Example is in folder fuzzy/dataset.
 
-% create population for task 2
-ecg_nn_task2
+Training
+---
+Train the model:
 
-% transform both tasks using Fuzzy logic
-fuzzy
+Format both tasks as nn input
+nn_input.m
 
-% run MFGP on the transformed data
+Create population for task 1
+ecg_nn_task1.m
+
+Create population for task 2
+ecg_nn_task2.m
+
+Transform both tasks using Fuzzy logic
+fuzzy.m
+
+Run MFGP on the transformed data
 cd MFGP
 java Main
+
+
+Testing
+---
+To test a new sample you have to solve the predicted optimal GP tree
