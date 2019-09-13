@@ -14,7 +14,6 @@ The training data is a csv file of features followed by class label. Example is 
 
 Training
 ---
-Train the model:
 
 Format both tasks as nn input
 nn_input.m
