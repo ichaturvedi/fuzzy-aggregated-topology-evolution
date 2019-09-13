@@ -15,21 +15,11 @@ The training data is a csv file of features followed by class label. Example is 
 Training
 ---
 
-Format both tasks as nn input
-nn_input.m
-
-Create population for task 1
-ecg_nn_task1.m
-
-Create population for task 2
-ecg_nn_task2.m
-
-Transform both tasks using Fuzzy logic
-fuzzy.m
-
-Run MFGP on the transformed data
-cd MFGP
-java Main
+- Format both tasks as nn input : nn_input.m
+- Create population for task 1 : ecg_nn_task1.m
+- Create population for task 2 : ecg_nn_task2.m
+- Transform both tasks using Fuzzy logic : fuzzy.m
+- Run MFGP on the transformed data : java MFGP/Main.java
 
 
 Testing
