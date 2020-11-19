@@ -1,5 +1,5 @@
 
-Multi-task Neuro Evolution
+Multi-task Genetic Programming
 ===
 This code implements the model discussed in Fuzzy Agglomerative Topology Evolution. The model is able to determine the optimal neural hyper-parameters for multi-task problems simultaneously. For example, we consider two ECG tasks : Valence (Joy or Sad) and Arousal (Fear or Calm). 
 
