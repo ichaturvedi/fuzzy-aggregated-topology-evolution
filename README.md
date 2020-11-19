@@ -1,7 +1,7 @@
 
 Multi-task Genetic Programming
 ===
-This code implements the model discussed in Fuzzy Aggregated Topology Evolution. The model is able to determine the optimal neural hyper-parameters for multi-task problems simultaneously. Genetic Program is used to represent the solution for each task. For example, we consider two ECG tasks : Valence (Joy or Sad) and Arousal (Fear or Calm). 
+This code implements the model discussed in the paper _Fuzzy Aggregated Topology Evolution_. The model is able to determine the optimal neural hyper-parameters for multi-task problems simultaneously. Genetic Program is used to represent the solution for each task. For example, we consider two ECG tasks : Valence (Joy or Sad) and Arousal (Fear or Calm). 
 
 Requirements
 ---
