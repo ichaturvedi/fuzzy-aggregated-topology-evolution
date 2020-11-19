@@ -5,7 +5,7 @@ This code implements the model discussed in Fuzzy Agglomerative Topology Evoluti
 
 Requirements
 ---
-This code requires Matlab for Fuzzy preprocessing and Jave for Genetic Programming.
+This code is based on NEAT code found here : https://github.com/CodeReclaimers/neat-python
 
 Preprocessing
 ---
