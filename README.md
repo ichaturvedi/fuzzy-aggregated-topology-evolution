@@ -30,3 +30,5 @@ Paper link : https://github.com/ichaturvedi/fuzzy-aggregated-topology-evolution/
 CEC 2020
 ---
 Presentation : https://youtu.be/tOiX3BNGsbE
+
+Paper Link : https://link.springer.com/article/10.1007/s12559-020-09807-4
