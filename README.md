@@ -25,10 +25,9 @@ Testing
 ---
 To test a new sample you have to solve the predicted optimal GP tree
 
-Paper link : https://github.com/ichaturvedi/fuzzy-aggregated-topology-evolution/blob/master/iti-FATE.pdf
+Paper link : https://link.springer.com/article/10.1007/s12559-020-09807-4
 
 CEC 2020
 ---
 Presentation : https://youtu.be/tOiX3BNGsbE
 
-Paper Link : https://link.springer.com/article/10.1007/s12559-020-09807-4
